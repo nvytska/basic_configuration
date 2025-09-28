@@ -1,0 +1,10 @@
+[Unit]
+Description=Run simpleService every 8 minutes
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=8min
+Unit=simpleService.service
+
+[Install]
+WantedBy=timers.target

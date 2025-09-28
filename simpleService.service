@@ -1,0 +1,6 @@
+[Unit]
+Description=Service ARP snapshot
+After=network.target
+
+[Service]
+ExecStart=/etc/simpleService.sh
