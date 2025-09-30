@@ -6,6 +6,9 @@ Group: CS420 Gruop 2
 ---
 
 **How to use script?**
+
+The best approach is:
+0. Clone repo: ```git clone https://github.com/nvytska/basic_configuration.git```
 1. Create new clean VM: ```multipass launch --name basic-config```.
 2. Mount: ```multipass mount ./basic_configuration basic-config:/home/ubuntu/basic_configuration```.
 3. Go too directory: ```cd basic_configuration```.
