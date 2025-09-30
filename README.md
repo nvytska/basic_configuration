@@ -23,8 +23,10 @@ Group: CS420 Gruop 2
 
 ```simpleService.sh```:
 Runs and outputs: date+time, IP and MAC, separator.
+
 ```simpleService.service```:
-Executes ```/etc/simpleService.sh```
+Executes ```/etc/simpleService.sh```.
+
 ```simpleService.timer```:
 Runs ```simpleService.service``` every 8 minutes automatically.
 
