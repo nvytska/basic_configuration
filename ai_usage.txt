@@ -1,0 +1,8 @@
+Link on chat: https://chatgpt.com/share/68dc1d44-cb38-8012-89fb-78e45edc8950
+My prompts:
+1. explain me services in Ubuntu, how it works
+2. how to write service that will display some logs 
+3. how to use systemd timers to show logs
+4. "OnUnitActiveSec\=1min" so it will show logs every 1 minute?
+5. how to write pretty .md file? give me key syntax
+6. how to make \n
