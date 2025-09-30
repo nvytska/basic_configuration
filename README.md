@@ -1,6 +1,9 @@
 # Assignment 1: Basic Configuration
-Student: Nataliia Vytska
+Student: Nataliia Vytska  
+
 Group: CS420 Gruop 2
+
+---
 
 **How to use script?**
 1. Copy files to some directory on VM (eg. ```/home/ubuntu/basic_configuration```).
@@ -17,5 +20,10 @@ Group: CS420 Gruop 2
 6. Enables ```simpleService.timer``` and starts ```simpleService.service```.
 
 **Basic functionality**
-
+```simpleService.sh```:
+Runs and outputs: date+time, IP and MAC, separator.
+```simpleService.service```:
+Executes ```/etc/simpleService.sh```
+```simpleService.timer```:
+Runs ```simpleService.service``` every 8 minutes automatically.
 
