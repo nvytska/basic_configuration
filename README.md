@@ -6,10 +6,12 @@ Group: CS420 Gruop 2
 ---
 
 **How to use script?**
-1. Copy files to some directory on VM (eg. ```/home/ubuntu/basic_configuration```).
-2. Run the script: ```chmod +x configure_system.sh```; ```./configure_system.sh``` (or ```sudo ./configure_system.sh``` if does not work).
-3. Verify if timer is active: ```systemctl list-timers simpleService.timer```
-4. Check logs: ```tail -f /var/log/simpleService.log```
+1. Create new clean VM: ```multipass launch --name basic-config```.
+2. Mount: ```multipass mount ./basic_configuration basic-config:/home/ubuntu/basic_configuration```.
+3. Go too directory: ```cd basic_configuration```.
+4. Run the script: ```chmod +x configure_system.sh```; ```sudo ./configure_system.sh```.
+5. Verify if timer is active: ```systemctl list-timers simpleService.timer```
+6. Check logs: ```tail -f /var/log/simpleService.log```
 
 **What the script does**
 1. Installs packages: tcptrace, iptraf
