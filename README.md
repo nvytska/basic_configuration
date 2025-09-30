@@ -20,6 +20,7 @@ Group: CS420 Gruop 2
 6. Enables ```simpleService.timer``` and starts ```simpleService.service```.
 
 **Basic functionality**
+
 ```simpleService.sh```:
 Runs and outputs: date+time, IP and MAC, separator.
 ```simpleService.service```:
