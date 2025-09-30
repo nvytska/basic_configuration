@@ -20,7 +20,7 @@ The best approach is:
 
 **What the script does**
 1. Installs packages: tcptrace, iptraf
-2. Creates the empty file ```config.txt``` in ```/usr/stairway/tohv``` folder.
+2. Creates the empty file ```config.bat``` in ```/usr/stairway/tohv``` folder.
 3. Copies ```simpleService.sh``` to ```/etc/``` and makes it executable.
 4. Copies ```simpleService.service``` and ```simpleService.timer``` to ```/etc/systemd/system/```.
 5. Reloads systemd.
