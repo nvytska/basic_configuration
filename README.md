@@ -12,10 +12,11 @@ The best approach is:
 0. Clone repo: ```git clone https://github.com/nvytska/basic_configuration.git```
 1. Create new clean VM: ```multipass launch --name basic-config```.
 2. Mount: ```multipass mount ./basic_configuration basic-config:/home/ubuntu/basic_configuration```.
-3. Go too directory: ```cd basic_configuration```.
-4. Run the script: ```chmod +x configure_system.sh```; ```sudo ./configure_system.sh```.
-5. Verify if timer is active: ```systemctl list-timers simpleService.timer```
-6. Check logs: ```tail -f /var/log/simpleService.log```
+3. ```multipass shell basic-config```
+4. Go to directory: ```cd basic_configuration```.
+5. Run the script: ```chmod +x configure_system.sh```; ```sudo ./configure_system.sh```.
+6. Verify if timer is active: ```systemctl list-timers simpleService.timer```
+7. Check logs: ```tail -f /var/log/simpleService.log```
 
 **What the script does**
 1. Installs packages: tcptrace, iptraf
